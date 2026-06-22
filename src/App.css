@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #0a2a66;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  background: #25D366;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 60px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+}
